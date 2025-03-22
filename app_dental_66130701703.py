@@ -16,7 +16,7 @@ gdown.download(url, model, quiet=False)
 model = YOLO(model)  # ใช้ yolov8n ที่เบากว่า
 
 # ส่วนติดต่อผู้ใช้ (UI) บน Streamlit
-st.title("🔍 YOLO Object Detection")
+st.title("🔍 Dental X-ray Object Detection")
 st.write("อัปโหลดภาพ แล้วให้ YOLO ตรวจจับวัตถุ")
 
 # อัปโหลดรูปภาพ
