@@ -1,0 +1,2 @@
+ultralytics==8.3.94
+gdown==5.2.0
