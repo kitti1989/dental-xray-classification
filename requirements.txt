@@ -1,2 +1,6 @@
-ultralytics==8.3.94
+streamlit
+ultralytics
+opencv-python
+numpy
+pillow
 gdown==5.2.0
