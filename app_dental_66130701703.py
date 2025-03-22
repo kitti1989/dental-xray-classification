@@ -13,7 +13,7 @@ gdown.download(url, model, quiet=False)
 
 
 # โหลดโมเดล YOLO (ใช้ YOLOv8 ที่ pretrained)
-model = YOLO("model")  # ใช้ yolov8n ที่เบากว่า
+model = YOLO(model)  # ใช้ yolov8n ที่เบากว่า
 
 # ส่วนติดต่อผู้ใช้ (UI) บน Streamlit
 st.title("🔍 YOLO Object Detection")
