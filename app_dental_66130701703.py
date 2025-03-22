@@ -1,3 +1,4 @@
+import ultralytics
 from ultralytics import solutions
 import gdown
 
