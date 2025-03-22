@@ -1,7 +1,7 @@
 streamlit
 ultralytics
 opencv-python
-cv2=4.11.0
+cv2==4.11.0
 numpy
 pillow
 gdown==5.2.0
