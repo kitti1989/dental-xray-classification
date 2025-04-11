@@ -1,5 +1,4 @@
 ultralytics
-opencv-python
 numpy
 pillow
 gdown==5.2.0
