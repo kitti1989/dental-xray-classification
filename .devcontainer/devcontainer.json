@@ -17,7 +17,7 @@
       ]
     }
   },
-  "updateContentCommand": "[ -f packages.txt ] && sudo apt update && sudo apt upgrade -y && sudo xargs apt install -y <packages.txt; [ -f requirements.txt ] && pip3 install --user -r requirements.txt; pip3 install --user streamlit; echo '✅ Packages installed and Requirements met'",
+  "updateContentCommand": "if [ -f packages.txt ]; then sudo apt update && sudo apt upgrade -y && sudo xargs -a packages.txt apt install -y; fi && if [ -f requirements.txt ]; then pip install -r requirements.txt; fi && echo '✅ Packages installed and Requirements met'",
   "postAttachCommand": {
     "server": "streamlit run app_dental_66130701703.py --server.enableCORS false --server.enableXsrfProtection false"
   },
